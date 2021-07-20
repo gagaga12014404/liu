@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .g {
+            width: 100px;
+    height: 100px;
+    background: blue;
+    display: block;
+    position: relative;
+
+            animation-name: fadeInUp;
+            animation-duration: 4s;    /*動畫持續時間，單位為秒*/
+    animation-delay: 0s;    /*動畫延遲開始時間*/
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translate3d(0, 100%, 0);
+            }
+
+            to {
+                opacity: 1;
+                transform: translate3d(0, 0, 0);
+            }
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div >
+        <h1 class="g">123</h1>
+    </div>
+</body>
+
+</html>

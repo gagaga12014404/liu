@@ -1,0 +1,20 @@
+nav {
+    background-color: #001427;
+    /*background-attachment:scroll;*/
+}
+
+body {
+    background: linear-gradient(180deg, #001427 0, #002142 30%);
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 34px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.nav-link {
+    font-size: 20px;
+}

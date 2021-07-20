@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<!-- 特斯拉官網 -->
+<!-- https://www.youtube.com/watch?v=dmwqgCjydhQ&ab_channel=%E9%AC%8D%E5%AD%90Jack -->
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <title>LIU</title>
+    <style>
+        body {
+            background-image: url('pic/main1.jpg');
+            background-size: cover;
+            /*background-position: center;*/
+        }
+
+        .row h1 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 100px;
+            letter-spacing: 0.1em;
+            text-shadow: 0.05em 0.05em 0.1em black;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+
+        }
+
+        .mt25 {
+            margin-top: 25%;
+        }
+
+        /*平板以下*/
+        @media (max-width:990px) {
+            nav ul {
+                text-align: center;
+            }
+        }
+
+        /*浮現特效*/
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translate3d(0, 100%, 0);
+            }
+
+            to {
+                opacity: 1;
+                transform: translate3d(0, 0, 0);
+            }
+        }
+
+        .fadeInUp {
+            animation-name: fadeInUp;
+            animation-duration: 1.5s;
+            animation-delay: 0s;
+        }
+
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translate3d(100%, 0, 0);
+            }
+
+            to {
+                opacity: 1;
+                transform: translate3d(0, 0, 0);
+            }
+        }
+
+        .fadeInLeft {
+            animation-name: fadeInLeft;
+            animation-duration: 2s;
+            animation-delay: 0s;
+        }
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <!-- LOGO -->
+        <a href="index.html"><img class="logo" src="./pic/LIU_LOGO_white.svg" alt=""></a>
+
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <!-- 漢堡選單 -->
+        
+        <button class="navbar-toggler btn-light" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <!-- 導覽列 -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="competition.html">競賽<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="research.html">專題<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="aboutme.html">關於我<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 主畫面 -->
+    <section class="slide">
+        <div class="container">
+            <div class="row text-white mt25 text-center">
+                <h5 class="col-5 fadeInLeft">DESIGN BY</h6>
+                    <div class="w-100"></div>
+                    <h1 class="col-md-4 fadeInUp">LIU</h1>
+                    <h1 class="col-md-2 fadeInUp">YU</h1>
+                    <h1 class="col-md-3 fadeInUp">TUNG</h1>
+                    <!-- <div class="col-md-5">
+                    <h1>LIU</h1>
+                </div>
+                <div class="col-md-2">
+                    <h1>YU</h1>
+                </div>
+                <div class="col-md-4">
+                    <h1>TUNG</h1>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(".toggle-icon").click(function () {
+            $('#nav-container').toggleClass("pushed");
+        });</script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
