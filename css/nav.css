@@ -18,3 +18,7 @@ body {
 .nav-link {
     font-size: 20px;
 }
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+    background-image: url('../pic/icons8-menu-24.png');
+}
