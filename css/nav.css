@@ -22,3 +22,16 @@ body {
 .navbar .navbar-toggler .navbar-toggler-icon {
     background-image: url('../pic/icons8-menu-24.png');
 }
+
+
+/*平板以下*/
+
+@media (max-width:990px) {
+    nav ul {
+        text-align: center;
+    }
+}
+
+hr{
+    background-color: white;
+}
